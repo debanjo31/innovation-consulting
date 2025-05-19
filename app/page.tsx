@@ -4,6 +4,7 @@ import HomeServices from "@/components/home/HomeServices";
 import BrandSection from "@/components/home/BrandSection";
 import WhyChooseUs from "@/components/home/WhyChooseUs";
 import CTASection from "@/components/home/CTASection";
+import Plan from "@/components/home/Plan";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Hero />
       <HomeServices />
       <Stats />
+      <Plan />
       <BrandSection />
       <WhyChooseUs />
       <CTASection />
