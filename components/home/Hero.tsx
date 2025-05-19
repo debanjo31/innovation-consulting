@@ -6,7 +6,7 @@ import { AnimatedBorderButton } from "../ux/animated-border-button";
 
 const Hero = () => {
   return (
-    <section className="relative bg-black text-white min-h-screen">
+    <section className="relative bg-black text-white">
       <div className="absolute inset-0 z-0 opacity-70">
         <Image
           src="/images/home/hero-bg.png"
