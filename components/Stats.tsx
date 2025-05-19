@@ -32,7 +32,7 @@ const Stats = ({ page }: any) => {
     >
       <div
         ref={ref}
-        className="max-w-[52rem] mx-auto bg-[url('/images/arc.svg')] lg:bg-[url('/images/arc-L.svg')] bg-cover md:bg-contain lg:bg-contain bg-top bg-no-repeat"
+        className="max-w-[52rem] mx-auto bg-[url('/images/arc-red.svg')] lg:bg-[url('/images/arc-L-red.svg')] bg-cover md:bg-contain lg:bg-contain bg-top bg-no-repeat"
       >
         <div className="pt-20 sm:pt-40 lg:pt-60 pb-10 md:pb-14 lg:pb-20 max-w-xl mx-auto text-center px-5">
           <TextGenerateEffect
