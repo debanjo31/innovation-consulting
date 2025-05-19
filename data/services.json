@@ -1,0 +1,237 @@
+{
+  "digishift": {
+    "id": "digishift",
+    "title": "DigiShift",
+    "shortDescription": "Digital transformation solutions to modernize your business operations",
+    "fullDescription": "Comprehensive digital transformation solutions to modernize your business operations and drive growth in the digital economy.",
+    "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-05-17%20214847-6ani41qzx2e1yaP5AFlurPPNQYJyEA.png",
+    "icon": "server",
+    "features": [
+      {
+        "title": "Digital Assessment",
+        "description": "Evaluate digital maturity and define a transformation roadmap through stakeholder interviews and current tool assessment.",
+        "bulletPoints": [
+          "Stakeholder interviews and workshops",
+          "Current technology stack evaluation",
+          "Digital maturity scoring",
+          "Customized transformation roadmap"
+        ]
+      },
+      {
+        "title": "E-Commerce Setup",
+        "description": "Establish or optimize online sales platforms using Shopify or WooCommerce with integrated payment gateways like Paystack and Flutterwave.",
+        "bulletPoints": [
+          "Platform selection and setup",
+          "Payment gateway integration",
+          "Product catalog management",
+          "Order fulfillment optimization"
+        ]
+      },
+      {
+        "title": "Digital Infrastructure",
+        "description": "Implement cloud-based tools and integrate Customer Relationship Management/Enterprises Resource Planning systems for operational efficiency and scalability.",
+        "bulletPoints": [
+          "Cloud migration strategy",
+          "CRM/ERP selection and implementation",
+          "System integration and data migration",
+          "Staff training and adoption support"
+        ]
+      },
+      {
+        "title": "Cybersecurity",
+        "description": "Protect digital assets through security audits, staff training, and policy development aligned with Nigerian regulations.",
+        "bulletPoints": [
+          "Security vulnerability assessment",
+          "Security policy development",
+          "Staff security awareness training",
+          "Regulatory compliance guidance"
+        ]
+      }
+    ]
+  },
+  "capspring": {
+    "id": "capspring",
+    "title": "CAPSPRING",
+    "shortDescription": "Business growth and capital access strategies for scaling companies",
+    "fullDescription": "Strategic business growth solutions and capital access strategies to help your company scale effectively in competitive markets.",
+    "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-05-17%20214824-VQPQke8U7D09hRlfKqvG3BBD1dAxPx.png",
+    "icon": "bar-chart-2",
+    "features": [
+      {
+        "title": "Market Expansion",
+        "description": "Identify scaling opportunities and develop market entry strategies for business growth.",
+        "bulletPoints": [
+          "Market opportunity analysis",
+          "Competitive landscape assessment",
+          "Growth strategy development",
+          "Market entry planning"
+        ]
+      },
+      {
+        "title": "Regulatory Compliance",
+        "description": "Boost investor confidence through comprehensive regulatory compliance frameworks.",
+        "bulletPoints": [
+          "Regulatory gap analysis",
+          "Compliance framework development",
+          "Documentation and reporting systems",
+          "Ongoing compliance monitoring"
+        ]
+      },
+      {
+        "title": "Capital Access",
+        "description": "Connect with loan opportunities, venture capitalists, and business angels to secure funding.",
+        "bulletPoints": [
+          "Funding needs assessment",
+          "Investor pitch preparation",
+          "Due diligence support",
+          "Investor relationship management"
+        ]
+      },
+      {
+        "title": "Business Valuation",
+        "description": "Establish market position and determine accurate business valuation for investment rounds.",
+        "bulletPoints": [
+          "Financial analysis and modeling",
+          "Valuation methodology selection",
+          "Benchmark analysis",
+          "Valuation reporting"
+        ]
+      }
+    ]
+  },
+  "talentforge": {
+    "id": "talentforge",
+    "title": "TalentForge",
+    "shortDescription": "Human resource optimization and leadership development programs",
+    "fullDescription": "Comprehensive talent management solutions to optimize your workforce, develop leadership capabilities, and create efficient HR processes.",
+    "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-05-17%20214833-xNOrOKIahdsVZJSniLWPoLLtXAwUnR.png",
+    "icon": "users",
+    "features": [
+      {
+        "title": "Skill Assessment",
+        "description": "Identify workforce gaps and training needs to build a more capable team.",
+        "bulletPoints": [
+          "Skills gap analysis",
+          "Competency framework development",
+          "Training needs identification",
+          "Learning pathway design"
+        ]
+      },
+      {
+        "title": "Leadership Development",
+        "description": "Build capacity through workshops and toolkits designed for emerging and established leaders.",
+        "bulletPoints": [
+          "Leadership competency assessment",
+          "Customized development programs",
+          "Executive coaching",
+          "Leadership toolkit creation"
+        ]
+      },
+      {
+        "title": "Performance Management",
+        "description": "Implement KPIs and review processes to optimize team performance.",
+        "bulletPoints": [
+          "Performance framework design",
+          "KPI development",
+          "Review process implementation",
+          "Performance analytics"
+        ]
+      },
+      {
+        "title": "HR Management",
+        "description": "Streamline processes for efficiency and better employee experience.",
+        "bulletPoints": ["HR process audit", "HRIS selection and implementation", "Policy development", "HR automation"]
+      },
+      {
+        "title": "Succession Planning",
+        "description": "Ensure leadership continuity through structured succession planning.",
+        "bulletPoints": [
+          "Critical role identification",
+          "Talent pipeline development",
+          "Successor readiness assessment",
+          "Knowledge transfer planning"
+        ]
+      }
+    ]
+  },
+  "smartstart": {
+    "id": "smartstart",
+    "title": "SmartStart Compass",
+    "shortDescription": "Comprehensive startup guidance from ideation to execution",
+    "fullDescription": "End-to-end startup guidance that takes your business from initial concept through to successful market entry and growth.",
+    "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-05-17%20214811-0T328t3Ct2r1T8xUECfqKWEDQ8o2kx.png",
+    "icon": "compass",
+    "features": [
+      {
+        "title": "Foundation Building",
+        "description": "Begin with client onboarding, needs assessment, and a comprehensive feasibility study to validate your business idea in the Nigerian market.",
+        "bulletPoints": [
+          "Market feasibility analysis",
+          "Business concept validation",
+          "Competitive landscape assessment",
+          "Initial business planning"
+        ]
+      },
+      {
+        "title": "Business Modeling & Financial Planning",
+        "description": "Develop a tailored Business Model Canvas and create 3-5 year financial projections with budgeting templates and cash flow management strategies.",
+        "bulletPoints": [
+          "Business model development",
+          "Financial forecasting",
+          "Cash flow planning",
+          "Budget template creation"
+        ]
+      },
+      {
+        "title": "Legal & Accounting Setup",
+        "description": "Ensure compliance with Nigerian regulations through business registration support and establish a scalable cloud-based accounting system.",
+        "bulletPoints": [
+          "Business registration guidance",
+          "Legal structure advisory",
+          "Accounting system setup",
+          "Tax compliance planning"
+        ]
+      },
+      {
+        "title": "Strategic Roadmapping",
+        "description": "Align with client strategic roadmap through bi-weekly sessions and develop a 12-month action plan with clear milestones.",
+        "bulletPoints": [
+          "Strategic planning sessions",
+          "Action plan development",
+          "Milestone setting",
+          "Progress tracking framework"
+        ]
+      }
+    ]
+  },
+  "etrademarket": {
+    "id": "etrademarket",
+    "title": "eTradeMarket",
+    "shortDescription": "International trade and export compliance solutions",
+    "fullDescription": "Comprehensive international trade solutions to help businesses expand globally with proper export compliance and virtual presence.",
+    "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-05-17%20214859-sUmWmbfNI0JpwxZvRdQSULWsSTBS20.png",
+    "icon": "globe",
+    "features": [
+      {
+        "title": "Premium Virtual Booth Setup",
+        "description": "Create an engaging online presence for trade fairs with interactive elements like videos, live chat, and product demos.",
+        "bulletPoints": [
+          "Virtual booth design",
+          "Interactive feature integration",
+          "Product showcase development",
+          "Cross-platform compatibility"
+        ]
+      },
+      {
+        "title": "Export Compliance Support",
+        "description": "Prepare for international trade through export readiness assessment, guidance through Nigerian Export Promotion Council requirements, and provision of documentation templates.",
+        "bulletPoints": [
+          "Export readiness assessment",
+          "Regulatory compliance guidance",
+          "Documentation preparation",
+          "Export process optimization"
+        ]
+      }
+    ]
+  }
+}
