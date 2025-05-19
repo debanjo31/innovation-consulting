@@ -6,7 +6,7 @@ import { AnimatedBorderButton } from "../ux/animated-border-button";
 
 const Hero = () => {
   return (
-    <section className="relative bg-black text-white">
+    <section className="relative bg-black text-white min-h-screen">
       <div className="absolute inset-0 z-0 opacity-70">
         <Image
           src="/images/home/hero-bg.png"
@@ -25,14 +25,14 @@ const Hero = () => {
           excellence
         </p>{" "}
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-10 w-full max-w-[500px] mx-auto animate-fade-up animate-delay-200">
-          <AnimatedBorderButton as="div" className="px-6 py-2">
+          <AnimatedBorderButton as="div" className="px-6 py-3">
             <Link href="/services">Explore Our Services</Link>
           </AnimatedBorderButton>
           <Button
             asChild
             variant="outline"
             size="lg"
-            className="border-white text-white hover:bg-red-900/10 px-6 py-2"
+            className="border-white text-white hover:bg-red-900/10 px-6 py-3"
           >
             <Link href="/contact">Contact Us</Link>
           </Button>
