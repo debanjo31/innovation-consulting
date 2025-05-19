@@ -16,7 +16,7 @@ const Hero = () => {
           priority
         />
       </div>
-      <div className="container relative z-10 px-4 py-24 mx-auto text-center md:py-32">
+      <div className="w-[90vw] md:w-5/6 relative z-10 py-24 mx-auto text-center md:py-32">
         <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl animate-fade-up">
           <span className="block">Innovation Consulting</span>
         </h1>

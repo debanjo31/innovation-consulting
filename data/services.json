@@ -4,7 +4,7 @@
     "title": "DigiShift",
     "shortDescription": "Digital transformation solutions to modernize your business operations",
     "fullDescription": "Comprehensive digital transformation solutions to modernize your business operations and drive growth in the digital economy.",
-    "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-05-17%20214847-6ani41qzx2e1yaP5AFlurPPNQYJyEA.png",
+    "image": "/home/hero-bg.png",
     "icon": "server",
     "features": [
       {
@@ -54,7 +54,7 @@
     "title": "CAPSPRING",
     "shortDescription": "Business growth and capital access strategies for scaling companies",
     "fullDescription": "Strategic business growth solutions and capital access strategies to help your company scale effectively in competitive markets.",
-    "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-05-17%20214824-VQPQke8U7D09hRlfKqvG3BBD1dAxPx.png",
+    "image": "/home/hero-bg.png",
     "icon": "bar-chart-2",
     "features": [
       {
@@ -104,7 +104,7 @@
     "title": "TalentForge",
     "shortDescription": "Human resource optimization and leadership development programs",
     "fullDescription": "Comprehensive talent management solutions to optimize your workforce, develop leadership capabilities, and create efficient HR processes.",
-    "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-05-17%20214833-xNOrOKIahdsVZJSniLWPoLLtXAwUnR.png",
+    "image": "/home/hero-bg.png",
     "icon": "users",
     "features": [
       {
@@ -140,7 +140,12 @@
       {
         "title": "HR Management",
         "description": "Streamline processes for efficiency and better employee experience.",
-        "bulletPoints": ["HR process audit", "HRIS selection and implementation", "Policy development", "HR automation"]
+        "bulletPoints": [
+          "HR process audit",
+          "HRIS selection and implementation",
+          "Policy development",
+          "HR automation"
+        ]
       },
       {
         "title": "Succession Planning",
@@ -159,7 +164,7 @@
     "title": "SmartStart Compass",
     "shortDescription": "Comprehensive startup guidance from ideation to execution",
     "fullDescription": "End-to-end startup guidance that takes your business from initial concept through to successful market entry and growth.",
-    "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-05-17%20214811-0T328t3Ct2r1T8xUECfqKWEDQ8o2kx.png",
+    "image": "/home/hero-bg.png",
     "icon": "compass",
     "features": [
       {
@@ -209,7 +214,7 @@
     "title": "eTradeMarket",
     "shortDescription": "International trade and export compliance solutions",
     "fullDescription": "Comprehensive international trade solutions to help businesses expand globally with proper export compliance and virtual presence.",
-    "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-05-17%20214859-sUmWmbfNI0JpwxZvRdQSULWsSTBS20.png",
+    "image": "/home/hero-bg.png",
     "icon": "globe",
     "features": [
       {

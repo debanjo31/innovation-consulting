@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import React, { useEffect, useRef, useState } from "react";
 
@@ -45,11 +45,10 @@ const CountUp = ({ start = 0, end }: CountUpProps) => {
   }, [start, end]);
 
   return (
-    <div className="text-[1.7rem] sm:text-[2rem] md:text-[3rem] text-accent font-medium">
+    <div className="text-[1.7rem] sm:text-[2rem] md:text-[3rem] text-accent font-medium text-[#ef4444]">
       {value}+
     </div>
   );
 };
 
 export default CountUp;
-

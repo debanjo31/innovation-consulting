@@ -1,18 +1,18 @@
-import type { Metadata } from "next"
-import { Breadcrumbs } from "@/components/breadcrumbs"
-import { SectionHeading } from "@/components/section-heading"
-import { Button } from "@/components/ui/button"
-import { Mail, MapPin, Phone } from "lucide-react"
+import type { Metadata } from "next";
+import { Breadcrumbs } from "@/components/breadcrumbs";
+import { SectionHeading } from "@/components/section-heading";
+import { Button } from "@/components/ui/button";
+import { Mail, MapPin, Phone } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Contact Us | Innovation Consulting",
   description:
     "Get in touch with Innovation Consulting to discuss your business needs and how we can help you achieve your goals.",
-}
+};
 
 export default function ContactPage() {
   return (
-    <div className="container px-4 py-12 mx-auto">
+    <div className="w-[90vw] md:w-5/6 py-12 mx-auto">
       <Breadcrumbs items={[{ title: "Contact Us" }]} />
 
       <SectionHeading
@@ -26,8 +26,13 @@ export default function ContactPage() {
             <Phone className="h-6 w-6 text-red-500" />
           </div>
           <h3 className="text-xl font-bold mb-2">Phone</h3>
-          <p className="text-zinc-300 mb-2">Our team is available Monday-Friday, 9am-5pm</p>
-          <a href="tel:+2341234567890" className="text-red-500 hover:text-red-400 font-medium">
+          <p className="text-zinc-300 mb-2">
+            Our team is available Monday-Friday, 9am-5pm
+          </p>
+          <a
+            href="tel:+2341234567890"
+            className="text-red-500 hover:text-red-400 font-medium"
+          >
             +234 123 456 7890
           </a>
         </div>
@@ -37,8 +42,13 @@ export default function ContactPage() {
             <Mail className="h-6 w-6 text-red-500" />
           </div>
           <h3 className="text-xl font-bold mb-2">Email</h3>
-          <p className="text-zinc-300 mb-2">Our support team will get back to you within 24 hours</p>
-          <a href="mailto:info@innovationconsulting.com" className="text-red-500 hover:text-red-400 font-medium">
+          <p className="text-zinc-300 mb-2">
+            Our support team will get back to you within 24 hours
+          </p>
+          <a
+            href="mailto:info@innovationconsulting.com"
+            className="text-red-500 hover:text-red-400 font-medium"
+          >
             info@innovationconsulting.com
           </a>
         </div>
@@ -63,8 +73,8 @@ export default function ContactPage() {
         <div className="md:col-span-2 animate-fade-right">
           <h2 className="text-2xl font-bold mb-4">Get in Touch</h2>
           <p className="text-zinc-300 mb-6">
-            Have questions about our services or want to discuss your business needs? Fill out the form and our team
-            will get back to you promptly.
+            Have questions about our services or want to discuss your business
+            needs? Fill out the form and our team will get back to you promptly.
           </p>
 
           <div className="space-y-4">
@@ -87,7 +97,9 @@ export default function ContactPage() {
               </div>
               <div>
                 <h3 className="font-medium">Expert Consultation</h3>
-                <p className="text-zinc-400 text-sm">Speak with our industry specialists</p>
+                <p className="text-zinc-400 text-sm">
+                  Speak with our industry specialists
+                </p>
               </div>
             </div>
 
@@ -110,7 +122,9 @@ export default function ContactPage() {
               </div>
               <div>
                 <h3 className="font-medium">Quick Response</h3>
-                <p className="text-zinc-400 text-sm">We respond within 24 hours</p>
+                <p className="text-zinc-400 text-sm">
+                  We respond within 24 hours
+                </p>
               </div>
             </div>
 
@@ -133,7 +147,9 @@ export default function ContactPage() {
               </div>
               <div>
                 <h3 className="font-medium">Tailored Solutions</h3>
-                <p className="text-zinc-400 text-sm">Customized to your business needs</p>
+                <p className="text-zinc-400 text-sm">
+                  Customized to your business needs
+                </p>
               </div>
             </div>
           </div>
@@ -215,7 +231,10 @@ export default function ContactPage() {
                   type="checkbox"
                   className="h-4 w-4 text-red-500 focus:ring-red-500 border-zinc-700 rounded"
                 />
-                <label htmlFor="privacy" className="ml-2 block text-sm text-zinc-300">
+                <label
+                  htmlFor="privacy"
+                  className="ml-2 block text-sm text-zinc-300"
+                >
                   I agree to the{" "}
                   <a href="#" className="text-red-500 hover:text-red-400">
                     privacy policy
@@ -223,7 +242,10 @@ export default function ContactPage() {
                 </label>
               </div>
 
-              <Button type="submit" className="w-full bg-red-800 hover:bg-red-900">
+              <Button
+                type="submit"
+                className="w-full bg-red-800 hover:bg-red-900"
+              >
                 Send Message
               </Button>
             </form>
@@ -245,5 +267,5 @@ export default function ContactPage() {
         </div>
       </div>
     </div>
-  )
+  );
 }

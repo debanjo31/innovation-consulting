@@ -1,54 +1,61 @@
-import type { Metadata } from "next"
-import Image from "next/image"
-import Link from "next/link"
-import { notFound } from "next/navigation"
-import { Button } from "@/components/ui/button"
-import { Breadcrumbs } from "@/components/breadcrumbs"
-import { FeatureCard } from "@/components/feature-card"
-import { SectionHeading } from "@/components/section-heading"
-import { getServiceBySlug, getServices, getIconByName } from "@/lib/services"
+import type { Metadata } from "next";
+import Image from "next/image";
+import Link from "next/link";
+import { notFound } from "next/navigation";
+import { Button } from "@/components/ui/button";
+import { Breadcrumbs } from "@/components/breadcrumbs";
+import { FeatureCard } from "@/components/feature-card";
+import { SectionHeading } from "@/components/section-heading";
+import { getServiceBySlug, getServices, getIconByName } from "@/lib/services";
 
 interface ServicePageProps {
   params: {
-    slug: string
-  }
+    slug: string;
+  };
 }
 
-export async function generateMetadata({ params }: ServicePageProps): Promise<Metadata> {
-  const service = getServiceBySlug(params.slug)
+export async function generateMetadata({
+  params,
+}: ServicePageProps): Promise<Metadata> {
+  const service = getServiceBySlug(params.slug);
 
   if (!service) {
     return {
       title: "Service Not Found | Innovation Consulting",
-    }
+    };
   }
 
   return {
     title: `${service.title} | Innovation Consulting`,
     description: service.fullDescription,
-  }
+  };
 }
 
 export async function generateStaticParams() {
-  const services = getServices()
+  const services = getServices();
 
   return services.map((service) => ({
     slug: service.id,
-  }))
+  }));
 }
 
 export default function ServicePage({ params }: ServicePageProps) {
-  const service = getServiceBySlug(params.slug)
+  const service = getServiceBySlug(params.slug);
 
   if (!service) {
-    notFound()
+    notFound();
   }
 
-  const Icon = getIconByName(service.icon)
+  const Icon = getIconByName(service.icon);
 
   return (
-    <div className="container px-4 py-12 mx-auto">
-      <Breadcrumbs items={[{ title: "Services", href: "/services" }, { title: service.title }]} />
+    <div className="w-[90vw] md:w-5/6 px-4 py-12 mx-auto">
+      <Breadcrumbs
+        items={[
+          { title: "Services", href: "/services" },
+          { title: service.title },
+        ]}
+      />
 
       <div className="grid gap-12 md:grid-cols-2 items-start mb-16">
         <div className="animate-fade-right">
@@ -69,7 +76,7 @@ export default function ServicePage({ params }: ServicePageProps) {
 
         <div className="animate-fade-left">
           <Image
-            src={service.image || "/placeholder.svg"}
+            src="/images/home/hero-bg.png"
             alt={service.title}
             width={600}
             height={400}
@@ -99,18 +106,24 @@ export default function ServicePage({ params }: ServicePageProps) {
         <div className="text-center max-w-3xl mx-auto">
           <h2 className="text-2xl font-bold mb-4">Ready to Get Started?</h2>
           <p className="text-zinc-300 mb-8">
-            Contact our team today to discuss how our {service.title} services can help your business thrive.
+            Contact our team today to discuss how our {service.title} services
+            can help your business thrive.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Button asChild size="lg" className="bg-red-800 hover:bg-red-900">
               <Link href="/contact">Contact Us</Link>
             </Button>
-            <Button asChild variant="outline" size="lg" className="border-red-800 text-white hover:bg-red-900/10">
+            <Button
+              asChild
+              variant="outline"
+              size="lg"
+              className="border-red-800 text-white hover:bg-red-900/10"
+            >
               <Link href="/services">Explore Other Services</Link>
             </Button>
           </div>
         </div>
       </div>
     </div>
-  )
+  );
 }

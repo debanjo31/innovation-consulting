@@ -14,7 +14,7 @@ export default function ServicesPage() {
   const services = getServices()
 
   return (
-    <div className="container px-4 py-12 mx-auto">
+    <div className="w-[90vw] md:w-5/6 py-12 mx-auto">
       <Breadcrumbs items={[{ title: "Services" }]} />
 
       <SectionHeading

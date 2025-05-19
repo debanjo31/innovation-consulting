@@ -8,9 +8,8 @@ import { SectionHeading } from "../section-heading";
 
 const HomeServices = () => {
   const services = getServices();
-  return (
-    <section id="services" className="py-16 bg-zinc-900 text-white">
-      <div className="container px-4 mx-auto">
+  return (    <section id="services" className="py-16 bg-zinc-900 text-white">
+      <div className="w-[90vw] md:w-5/6 mx-auto">
         <SectionHeading
           title="Our Service Offerings"
           description="Comprehensive business solutions tailored to your specific needs"

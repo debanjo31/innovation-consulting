@@ -32,7 +32,7 @@ const Stats = ({ page }: any) => {
     >
       <div
         ref={ref}
-        className="max-w-[52rem] mx-auto bg-[url('/images/arc-red.svg')] lg:bg-[url('/images/arc-L-red.svg')] bg-cover md:bg-contain lg:bg-contain bg-top bg-no-repeat"
+        className="w-[90vw] md:w-5/6 mx-auto bg-[url('/images/arc-red.svg')] lg:bg-[url('/images/arc-L-red.svg')] bg-cover md:bg-contain lg:bg-contain bg-top bg-no-repeat"
       >
         <div className="pt-20 sm:pt-40 lg:pt-60 pb-10 md:pb-14 lg:pb-20 max-w-xl mx-auto text-center px-5">
           <TextGenerateEffect
@@ -40,8 +40,8 @@ const Stats = ({ page }: any) => {
             innerClassName="text-xl md:text-2xl lg:text-3xl font-medium"
             className="mb-14 lg:mb-20 max-w-[19rem] md:max-w-md mx-auto"
             wordStyles={[
-              { word: "businesses", classes: "text-[#60a6e7]" },
-              { word: "scale", classes: "text-[#60a6e7]" },
+              { word: "businesses", classes: "text-[#ef4444]" },
+              { word: "scale", classes: "text-[#ef4444]" },
             ]}
           />
           <div className="flex justify-evenly sm:justify-between items-center gap-3">
